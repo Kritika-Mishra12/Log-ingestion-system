@@ -39,7 +39,7 @@ This is the backend service for the Log Ingestion and Querying System. It expose
 
 ##  Installation & Run
 
-cd backend
+cd log-system-backend
 npm install
 npm run dev
 
