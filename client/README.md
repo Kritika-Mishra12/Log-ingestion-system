@@ -34,7 +34,7 @@ This is the React-based frontend for the Log Ingestion and Querying System. It a
 ##  Setup Instructions
 
 ```bash
-cd frontend
+cd client
 npm install
 npm run dev
 
