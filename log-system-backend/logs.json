@@ -1,0 +1,75 @@
+[
+  {
+    "level": "error",
+    "message": "Failed to connect to DB",
+    "resourceId": "server-1234",
+    "timestamp": "2025-07-05T14:00:00Z",
+    "traceId": "trace-abc",
+    "spanId": "span-123",
+    "commit": "a1b2c3d",
+    "metadata": {
+      "parentResourceId": "parent-456"
+    }
+  },
+  {
+    "level": "info",
+    "message": "User login successful",
+    "resourceId": "auth-service",
+    "timestamp": "2025-07-04T10:30:00Z",
+    "traceId": "trace-xyz",
+    "spanId": "span-789",
+    "commit": "b2c3d4e",
+    "metadata": {
+      "userId": "user-001"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Disk space running low",
+    "resourceId": "storage-node-1",
+    "timestamp": "2025-07-03T08:15:00Z",
+    "traceId": "trace-123",
+    "spanId": "span-456",
+    "commit": "c3d4e5f",
+    "metadata": {
+      "disk": "sda1",
+      "available": "5%"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Cache hit for /api/user/info",
+    "resourceId": "api-gateway",
+    "timestamp": "2025-07-05T07:45:00Z",
+    "traceId": "trace-999",
+    "spanId": "span-001",
+    "commit": "d4e5f6g",
+    "metadata": {
+      "cacheKey": "user-info-123"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Timeout while processing request",
+    "resourceId": "order-service",
+    "timestamp": "2025-07-02T23:50:00Z",
+    "traceId": "trace-777",
+    "spanId": "span-002",
+    "commit": "e5f6g7h",
+    "metadata": {
+      "retryCount": 3
+    }
+  },
+  {
+    "level": "info",
+    "message": "Scheduled job executed",
+    "resourceId": "cron-manager",
+    "timestamp": "2025-07-01T06:00:00Z",
+    "traceId": "trace-888",
+    "spanId": "span-003",
+    "commit": "f6g7h8i",
+    "metadata": {
+      "jobId": "daily-backup"
+    }
+  }
+]
